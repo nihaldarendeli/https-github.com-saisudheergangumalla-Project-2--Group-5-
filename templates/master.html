@@ -58,18 +58,7 @@
     <div class="container">
         <p class="text-center">Analyzing message data for disaster response</p>
         <hr />
-        <div class="text-center">
-            <iframe src="https://ghbtns.com/github-btn.html?user=chaitanyakasaraneni&repo=DisasterResponse&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
-            <iframe src="https://ghbtns.com/github-btn.html?user=chaitanyakasaraneni&repo=DisasterResponse&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-lg-12 form-group-lg">
-                <form action="/classify" method="get">
-                    <input type="text" class="form-control form-control-lg" name="query" placeholder="Enter a message to classify"> <br>
-                    <div class="text-center">
-                        <button type="submit" class="btn btn-lg btn-success">Classify Message</button>
-                    </div>
+      
                 </form>
             </div>
         </div>
@@ -79,11 +68,7 @@
     </div>
 </div>
 
-<div class="container">
-    {% block content %}
-        <div class="page-header">
-            <h1 class="text-center">Overview of Training Dataset</h1>
-        </div>
+
     {% endblock %}
         
     {% for id in ids %}
