@@ -64,9 +64,9 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li><a href="/">Home</a></li>
-          <li><a href="https://github.com/nihaldarendeli/python_app_enginev3/">Source Code</a></li>
-        </ul>
-
+          <li><a href="https://github.com/nihaldarendeli/python_app_enginev3">Source Code</a></li>
+          <li class="active"><a href="{{ url_for('api') }}">Classify messages using API</a></li>          
+       
       </div><!--/.nav-collapse -->
     </div>
   </nav>
@@ -74,8 +74,7 @@
 
 <div class="jumbotron">
     <div class="container">
-               <h1 class="text-center">Disaster Message Classification</h1>
-
+        <h1 class="text-center">Disaster Message Classification</h1>
         <hr />
         <center>
             <iframe src="https://ghbtns.com/github-btn.html?user=chaitanyakasaraneni&repo=DisasterResponse&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
